@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import HeaderContent from './Components/HeaderContent/HeaderContent'
+import BodyContent from './Components/BodyContent/BodyContent'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <>
       <div id="wrapper">
         <HeaderContent/>
+        <BodyContent/>
       </div>
     </>
   )
