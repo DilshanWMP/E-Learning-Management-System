@@ -10,9 +10,9 @@ function HeaderContent() {
             <img src={Logoimage} alt="Logo" className='logo'/>
         </div>
         <div>
-            <MenuLink linkname="Home" url="#home"/>
-            <MenuLink linkname="About" url="#about"/>
-            <MenuLink linkname="Contact" url="#contact"/>
+            <MenuLink linkname="Home" url="/"/>
+            <MenuLink linkname="All Courses" url="/allcourses"/>
+            <MenuLink linkname="My Courses" url="/mycourses"/>
             {/* <MenuLink linkname="Login" url="#login"/> */}
             <button className='btnLogin-popup' href="#login">Login</button>
         </div>

@@ -1,0 +1,36 @@
+.bgimage{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("./assets/bg-image.jpg");
+    display: flex;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);  
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: flex-end; 
+    color: white;
+    padding: 20px 200px;
+}
+    
+.content h1{
+    font-size: 100px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: right;
+}
+
+.content p{
+    color: white;
+    font-size: 22px;
+    margin: 15px 0 ;
+    max-width: 550px;
+    letter-spacing: 2px;
+    text-align: right;
+}
