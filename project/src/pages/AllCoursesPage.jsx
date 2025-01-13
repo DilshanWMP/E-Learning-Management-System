@@ -11,7 +11,59 @@ function AllCoursesPage() {
       <div id="wrapper">
         <HeaderContent/>
         <BodyContent>
-          
+          <Card
+            imgSrc='https://picsum.photos/300/'
+            imgAlt='Placeholder Image'
+            title='Course Title'
+            description='Course Description'
+            link='/'
+            buttonText='View Course'
+          />
+
+<Card
+            imgSrc='https://picsum.photos/300/'
+            imgAlt='Placeholder Image'
+            title='Course Title'
+            description='Course Description'
+            link='/'
+            buttonText='View Course'
+          />
+
+<Card
+            imgSrc='https://picsum.photos/300/'
+            imgAlt='Placeholder Image'
+            title='Course Title'
+            description='Course Description'
+            link='/'
+            buttonText='View Course'
+          />
+
+<Card
+            imgSrc='https://picsum.photos/300/'
+            imgAlt='Placeholder Image'
+            title='Course Title'
+            description='Course Description'
+            link='/'
+            buttonText='View Course'
+          />
+
+<Card
+            imgSrc='https://picsum.photos/300/'
+            imgAlt='Placeholder Image'
+            title='Course Title'
+            description='Course Description'
+            link='/'
+            buttonText='View Course'
+          />
+
+<Card
+            imgSrc='https://picsum.photos/300/'
+            imgAlt='Placeholder Image'
+            title='Course Title'
+            description='Course Description'
+            link='/'
+            buttonText='View Course'
+          />
         </BodyContent>
       </div>
     </>
