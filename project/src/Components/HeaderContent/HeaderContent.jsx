@@ -5,7 +5,7 @@ import Logoimage from '../../assets/CodeDot-Logo.png'
 
 function HeaderContent() {
   return (
-    <nav className="container">
+    <nav>
       <div className='navcontent'>   
           <img src={Logoimage} alt="Logo" className='logo'/>
           <div>
