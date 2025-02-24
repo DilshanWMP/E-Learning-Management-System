@@ -13,7 +13,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: auto;
-    padding: 0 150px;
+    padding: 0 150px 80px;
     width: 100%;
 }
 
@@ -24,7 +24,7 @@
     margin: 0 auto;
     justify-content: center;
     align-items: flex-start; 
-    padding: 100px 150px 40px;
+    padding: 100px 150px 40px ;
 }
     
 .content h1{
@@ -37,6 +37,13 @@
 
 .content h2{
     color: black;
+    font-size: 70px;
+    text-align: left;
+    font-style: italic;
+}
+
+.content h3{
+    color: black;
     font-size: 40px;
     text-align: left;
 }
@@ -45,7 +52,6 @@
     color: white;
     font-size: 22px;
     margin: 15px 0 ;
-    max-width: 550px;
     letter-spacing: 2px;
-    text-align: right;
+    text-align: left;
 }
