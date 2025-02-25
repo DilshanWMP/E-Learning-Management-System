@@ -28,7 +28,6 @@
 }
     
 .content h1{
-    color: white;
     font-size: 100px;
     font-weight: bolder;
     font-style: italic;
@@ -36,20 +35,17 @@
 }
 
 .content h2{
-    color: black;
     font-size: 70px;
     text-align: left;
     font-style: italic;
 }
 
 .content h3{
-    color: black;
     font-size: 40px;
     text-align: left;
 }
 
 .content p{
-    color: white;
     font-size: 22px;
     margin: 15px 0 ;
     letter-spacing: 2px;

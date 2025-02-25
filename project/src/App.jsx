@@ -8,6 +8,7 @@ import icon4 from './assets/SmallCardIcons/icon-4.png'
 import SmallCard from './Components/SmallCard/SmallCard'
 import Features from './Components/Features/Features'
 import image1 from '../src/assets/Features/image1.jpg'
+import image2 from '../src/assets/Features/image2.jpg'
 
 function App() {
 
@@ -17,9 +18,9 @@ function App() {
       <BodyContent>
         <section className='bgimage'>
           <div className='content' style={{alignItems:'flex-end'}}>
-            <h1>Bring your <br/>goals<span style={{ color: '#DF8AA3' }}> into <br/>focus</span></h1>
+            <h1 style={{color:'white'}}>Bring your <br/>goals<span style={{ color: '#DF8AA3' }}> into <br/>focus</span></h1>
             <br/>
-            <p style={{textAlign: 'right'}}>CodeDot offers online courses and programs<br/> that prepare you for every career moment</p>
+            <p style={{textAlign: 'right', color:'white'}}>CodeDot offers online courses and programs<br/> that prepare you for every career moment</p>
           </div>
         </section>
 
@@ -52,7 +53,28 @@ function App() {
             imgSrc={image1}
             title='Empower every member of your team'
             subtitle='Discover CodeDot Enterprise Subscriptions'
-            discription='Give your employees unlimited access to courses and certificate programs in topics like AI, sustainability, and leadership.'
+            description='Give your employees unlimited access to courses and certificate programs in topics like AI, sustainability, and leadership.'
+            textColor='white'
+            button='Discover enterprise solutions'
+          />
+        </div>
+
+        <div className="content" style={{backgroundColor: 'white', padding: '0px 100px'}}>
+          <Features
+            imgSrc={image2}
+            title='Join a community, not just a classroom'
+            titlecolor='#123c32'
+            description='With CodeDot, you can expect the kinds of benefits that set you up for long-term professional and personal growth'
+            textColor='black'
+          />
+        </div>
+
+        <div className="content" style={{backgroundColor: '#123c32', padding: '0px 100px', display:'flex', alignItems:'center'}}>
+          <Features
+            title='Register for a free account'
+            description='Sign up now.'
+            textColor='white'
+            button='Get started'
           />
         </div>
 
