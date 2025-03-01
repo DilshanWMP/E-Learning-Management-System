@@ -1,6 +1,7 @@
 import './App.css'
 import HeaderContent from './Components/HeaderContent/HeaderContent'
 import BodyContent from './Components/BodyContent/BodyContent'
+import LoginRegister from './Components/LoginRegister/LoginRegister'
 import icon1 from './assets/SmallCardIcons/icon-1.png'
 import icon2 from './assets/SmallCardIcons/icon-2.png'
 import icon3 from './assets/SmallCardIcons/icon-3.png'
@@ -16,6 +17,7 @@ function App() {
     <>   
       <HeaderContent/>
       <BodyContent>
+      <LoginRegister/>
         <section className='bgimage'>
           <div className='content' style={{alignItems:'flex-end'}}>
             <h1 style={{color:'white'}}>Bring your <br/>goals<span style={{ color: '#DF8AA3' }}> into <br/>focus</span></h1>
@@ -48,7 +50,7 @@ function App() {
           />
         </div>
         
-        <div className="content" style={{backgroundColor: '#123c32', padding: '0px 100px'}}>
+        <div className="content" style={{ padding: '0px 100px', background: 'linear-gradient(to top right, rgba(10, 37, 42, 1), rgba(10, 37, 42, 0.83))' }}>
           <Features
             imgSrc={image1}
             title='Empower every member of your team'
@@ -69,7 +71,7 @@ function App() {
           />
         </div>
 
-        <div className="content" style={{backgroundColor: '#123c32', padding: '0px 100px', display:'flex', alignItems:'center'}}>
+        <div className="content centered-text" style={{backgroundColor: '#0a252a', padding: '0px 100px', display:'flex', alignItems:'center'}}>
           <Features
             title='Register for a free account'
             description='Sign up now.'
@@ -79,6 +81,7 @@ function App() {
         </div>
 
       </BodyContent>    
+
     </>
   )
 }

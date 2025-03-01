@@ -30,8 +30,6 @@
 }
 
 .btn-popup2{
-    display: flex;
-    justify-content: flex-start;
     width: auto;
     height: 50px;
     outline: none;

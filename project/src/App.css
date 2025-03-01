@@ -51,3 +51,7 @@
     letter-spacing: 2px;
     text-align: left;
 }
+
+.centered-text p{
+    text-align: center;
+}
