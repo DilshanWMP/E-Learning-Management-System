@@ -23,5 +23,20 @@ namespace CodeDot
         {
             InitializeComponent();
         }
+
+        private void Add_Course(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Update_Course(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Delete_Course(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

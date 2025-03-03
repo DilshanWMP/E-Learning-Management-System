@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodeDot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1e9521ed8b0cc18e5de0faabbe1d10a7b94225e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3f78003f9770dc9b49bd09e1990f096851a04bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodeDot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodeDot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

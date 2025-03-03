@@ -42,6 +42,7 @@
                     Background="#FF5CB85C"
                     Foreground="White"
                     FontWeight="DemiBold"
+                    Click="Add_Course"
                     >Add Course</Button>
 
             <Button x:Name="Update_Course" 
@@ -50,6 +51,7 @@
                     Background="#FF5BC0DE"
                     Foreground="White"
                     FontWeight="DemiBold"
+                    Click="Update_Course"
                     >Update Course</Button>
 
             <Button x:Name="Delete_Course" 
@@ -58,6 +60,7 @@
                     Background="#FFD9534F"
                     Foreground="White"
                     FontWeight="DemiBold"
+                    Click="Delete_Course"
                     >Delete Course</Button>
         </StackPanel>
 
