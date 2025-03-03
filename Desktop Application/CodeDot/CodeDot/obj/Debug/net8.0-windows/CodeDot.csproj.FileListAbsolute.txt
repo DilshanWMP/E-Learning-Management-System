@@ -21,3 +21,16 @@ C:\Praveen\GitHub\E-Learning-Management-System\Desktop Application\CodeDot\CodeD
 C:\Praveen\GitHub\E-Learning-Management-System\Desktop Application\CodeDot\CodeDot\obj\Debug\net8.0-windows\CodeDot.pdb
 C:\Praveen\GitHub\E-Learning-Management-System\Desktop Application\CodeDot\CodeDot\obj\Debug\net8.0-windows\CodeDot.genruntimeconfig.cache
 C:\Praveen\GitHub\E-Learning-Management-System\Desktop Application\CodeDot\CodeDot\obj\Debug\net8.0-windows\ref\CodeDot.dll
+C:\Praveen\GitHub\E-Learning-Management-System\Desktop Application\CodeDot\CodeDot\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Praveen\GitHub\E-Learning-Management-System\Desktop Application\CodeDot\CodeDot\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Praveen\GitHub\E-Learning-Management-System\Desktop Application\CodeDot\CodeDot\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Praveen\GitHub\E-Learning-Management-System\Desktop Application\CodeDot\CodeDot\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Praveen\GitHub\E-Learning-Management-System\Desktop Application\CodeDot\CodeDot\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Praveen\GitHub\E-Learning-Management-System\Desktop Application\CodeDot\CodeDot\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Praveen\GitHub\E-Learning-Management-System\Desktop Application\CodeDot\CodeDot\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Praveen\GitHub\E-Learning-Management-System\Desktop Application\CodeDot\CodeDot\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Praveen\GitHub\E-Learning-Management-System\Desktop Application\CodeDot\CodeDot\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Praveen\GitHub\E-Learning-Management-System\Desktop Application\CodeDot\CodeDot\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Praveen\GitHub\E-Learning-Management-System\Desktop Application\CodeDot\CodeDot\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Praveen\GitHub\E-Learning-Management-System\Desktop Application\CodeDot\CodeDot\obj\Debug\net8.0-windows\CodeDot.csproj.AssemblyReference.cache
+C:\Praveen\GitHub\E-Learning-Management-System\Desktop Application\CodeDot\CodeDot\obj\Debug\net8.0-windows\CodeDot.csproj.Up2Date
