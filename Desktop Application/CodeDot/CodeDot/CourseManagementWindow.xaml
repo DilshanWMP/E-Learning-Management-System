@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:CodeDot"
         mc:Ignorable="d"
         Title="CourseManagementWindow" Height="450" Width="800"
-        Background="#FFFAFAFA">
+        Background="#FFFAFAFA"
+        WindowStartupLocation="CenterScreen">
     
     <Grid>
         <Grid.RowDefinitions>
@@ -32,25 +33,28 @@
                HorizontalAlignment="Center" 
                Source="Assets/CodeDot-logo.png" Margin="10"/>
 
-        <Rectangle Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Fill="#FFFAFAFA"/>
+        <Rectangle Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Fill="#FFE8F0FE"/>
         
-        <StackPanel Grid.Row="1" Grid.Column="0" VerticalAlignment="Center">
+        <StackPanel Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" >
             <Button FontSize="15"
                     Padding="15" Margin="5"
-                    Background="#FF4A90E2"
+                    Background="#FF5CB85C"
                     Foreground="White"
+                    FontWeight="DemiBold"
                     >Add Course</Button>
 
             <Button FontSize="15"
                     Padding="15" Margin="5"
-                    Background="#FF4A90E2"
+                    Background="#FF5BC0DE"
                     Foreground="White"
+                    FontWeight="DemiBold"
                     >Update Course</Button>
 
             <Button FontSize="15"
                     Padding="15" Margin="5"
-                    Background="#FF4A90E2"
+                    Background="#FFD9534F"
                     Foreground="White"
+                    FontWeight="DemiBold"
                     >Delete Course</Button>
         </StackPanel>
 
@@ -63,4 +67,5 @@
                   />
 
     </Grid>
+    
 </Window>

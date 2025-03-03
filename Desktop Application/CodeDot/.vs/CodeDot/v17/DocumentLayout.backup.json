@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Praveen\\GitHub\\E-Learning-Management-System\\Desktop Application\\CodeDot\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1DEB6AA3-560B-4EE9-A0C7-308114E6EB9A}|CodeDot\\CodeDot.csproj|c:\\praveen\\github\\e-learning-management-system\\desktop application\\codedot\\codedot\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1DEB6AA3-560B-4EE9-A0C7-308114E6EB9A}|CodeDot\\CodeDot.csproj|solutionrelative:codedot\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1DEB6AA3-560B-4EE9-A0C7-308114E6EB9A}|CodeDot\\CodeDot.csproj|c:\\praveen\\github\\e-learning-management-system\\desktop application\\codedot\\codedot\\coursemanagementwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1DEB6AA3-560B-4EE9-A0C7-308114E6EB9A}|CodeDot\\CodeDot.csproj|solutionrelative:codedot\\coursemanagementwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1DEB6AA3-560B-4EE9-A0C7-308114E6EB9A}|CodeDot\\CodeDot.csproj|c:\\praveen\\github\\e-learning-management-system\\desktop application\\codedot\\codedot\\coursemanagementwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1DEB6AA3-560B-4EE9-A0C7-308114E6EB9A}|CodeDot\\CodeDot.csproj|solutionrelative:codedot\\coursemanagementwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DEB6AA3-560B-4EE9-A0C7-308114E6EB9A}|CodeDot\\CodeDot.csproj|c:\\praveen\\github\\e-learning-management-system\\desktop application\\codedot\\codedot\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1DEB6AA3-560B-4EE9-A0C7-308114E6EB9A}|CodeDot\\CodeDot.csproj|solutionrelative:codedot\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1DEB6AA3-560B-4EE9-A0C7-308114E6EB9A}|CodeDot\\CodeDot.csproj|c:\\praveen\\github\\e-learning-management-system\\desktop application\\codedot\\codedot\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,32 +34,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CourseManagementWindow.xaml.cs",
               "DocumentMoniker": "C:\\Praveen\\GitHub\\E-Learning-Management-System\\Desktop Application\\CodeDot\\CodeDot\\CourseManagementWindow.xaml.cs",
               "RelativeDocumentMoniker": "CodeDot\\CourseManagementWindow.xaml.cs",
               "ToolTip": "C:\\Praveen\\GitHub\\E-Learning-Management-System\\Desktop Application\\CodeDot\\CodeDot\\CourseManagementWindow.xaml.cs",
               "RelativeToolTip": "CodeDot\\CourseManagementWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-02T16:10:52.057Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CourseManagementWindow.xaml",
               "DocumentMoniker": "C:\\Praveen\\GitHub\\E-Learning-Management-System\\Desktop Application\\CodeDot\\CodeDot\\CourseManagementWindow.xaml",
               "RelativeDocumentMoniker": "CodeDot\\CourseManagementWindow.xaml",
-              "ToolTip": "C:\\Praveen\\GitHub\\E-Learning-Management-System\\Desktop Application\\CodeDot\\CodeDot\\CourseManagementWindow.xaml*",
-              "RelativeToolTip": "CodeDot\\CourseManagementWindow.xaml*",
+              "ToolTip": "C:\\Praveen\\GitHub\\E-Learning-Management-System\\Desktop Application\\CodeDot\\CodeDot\\CourseManagementWindow.xaml",
+              "RelativeToolTip": "CodeDot\\CourseManagementWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-03-02T12:18:03.581Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Praveen\\GitHub\\E-Learning-Management-System\\Desktop Application\\CodeDot\\CodeDot\\MainWindow.xaml",
               "RelativeDocumentMoniker": "CodeDot\\MainWindow.xaml",
@@ -77,7 +77,7 @@
               "RelativeDocumentMoniker": "CodeDot\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Praveen\\GitHub\\E-Learning-Management-System\\Desktop Application\\CodeDot\\CodeDot\\MainWindow.xaml.cs",
               "RelativeToolTip": "CodeDot\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-02T10:28:23.838Z",
               "EditorCaption": ""
