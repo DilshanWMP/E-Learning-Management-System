@@ -20,5 +20,22 @@ namespace CodeDot
         {
             InitializeComponent();
         }
+
+        private void LoginButton_Click(object sender, RoutedEventArgs e)
+        {
+            string username = Username.Text;
+            string password = Password.Password;
+
+            if (username == "admin" && password == "admin")
+            {
+                CourseManagementWindow CodeDot = new CourseManagementWindow();
+                CodeDot.Show();
+                this.Close(); 
+            }
+            else
+            {
+                MessageBox.Show("Invalid username or password", "Login Failed", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
     }
 }

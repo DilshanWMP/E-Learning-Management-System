@@ -8,4 +8,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Assets\CodeDot-logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\CodeDot-logo.png" />
+  </ItemGroup>
+
 </Project>

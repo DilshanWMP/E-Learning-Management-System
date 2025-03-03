@@ -17,7 +17,7 @@ function App() {
     <>   
       <HeaderContent/>
       <BodyContent>
-      <LoginRegister/>
+      {/* <LoginRegister/> */}
         <section className='bgimage'>
           <div className='content' style={{alignItems:'flex-end'}}>
             <h1 style={{color:'white'}}>Bring your <br/>goals<span style={{ color: '#DF8AA3' }}> into <br/>focus</span></h1>
