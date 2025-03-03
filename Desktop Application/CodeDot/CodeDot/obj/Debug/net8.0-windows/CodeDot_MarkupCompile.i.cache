@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Praveen\GitHub\E-Learning-Management-System\Desktop Application\CodeDot\CodeDot\App.xaml
-21589370706
+3-1880137293
 
-7-1922180397
+13-1534209181
 2122083305267
-CourseManagementWindow.xaml;MainWindow.xaml;
+CourseManagementWindow.xaml;CourseWindow.xaml;MainWindow.xaml;
 
-False
+True
 

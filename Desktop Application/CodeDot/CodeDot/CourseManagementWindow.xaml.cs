@@ -19,24 +19,60 @@ namespace CodeDot
     /// </summary>
     public partial class CourseManagementWindow : Window
     {
+        private CourseDbContext _db = new CourseDbContext();
         public CourseManagementWindow()
         {
             InitializeComponent();
+            LoadData();
+        }
+
+        private void LoadData()
+        {
+            courseGrid.ItemsSource = _db.Courses.ToList();
         }
 
         private void Add_Course(object sender, RoutedEventArgs e)
         {
-
-        }
-
-        private void Update_Course(object sender, RoutedEventArgs e)
-        {
-
+            Course course = new Course();
+            CourseWindow pWindow = new CourseWindow(course);
+            if(pWindow.ShowDialog() == true)
+            {
+                _db.Courses.Add(course);
+                _db.SaveChanges();
+                LoadData();
+            }
         }
 
         private void Delete_Course(object sender, RoutedEventArgs e)
         {
-
+            if(courseGrid.SelectedItem is Course p)
+            {
+                _db.Courses.Remove(p);
+                _db.SaveChanges();
+                LoadData();
+            }
         }
+
+        private void Update_Course(object sender, RoutedEventArgs e)
+        {
+            if(courseGrid.SelectedItem is Course p)
+            {
+                Course course = new Course();
+                course.CourseID = p.CourseID;
+                course.CourseName = p.CourseName;
+                course.CourseDescription = p.CourseDescription;
+
+                CourseWindow pWindow = new CourseWindow(course);
+                if (pWindow.ShowDialog() == true)
+                {
+                    p.CourseName = course.CourseName;
+                    p.CourseDescription = course.CourseDescription;
+                    _db.Courses.Update(p);
+                    _db.SaveChanges();
+                    LoadData();
+                }
+            }
+        }
+
     }
 }

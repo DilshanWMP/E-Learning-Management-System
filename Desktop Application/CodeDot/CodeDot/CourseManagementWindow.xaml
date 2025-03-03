@@ -36,8 +36,7 @@
         <Rectangle Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Fill="#FFE8F0FE"/>
         
         <StackPanel Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" >
-            <Button x:Name="Add_Course" 
-                    FontSize="15"
+            <Button FontSize="15"
                     Padding="15" Margin="5"
                     Background="#FF5CB85C"
                     Foreground="White"
@@ -45,8 +44,7 @@
                     Click="Add_Course"
                     >Add Course</Button>
 
-            <Button x:Name="Update_Course" 
-                    FontSize="15"
+            <Button FontSize="15"
                     Padding="15" Margin="5"
                     Background="#FF5BC0DE"
                     Foreground="White"
@@ -54,8 +52,7 @@
                     Click="Update_Course"
                     >Update Course</Button>
 
-            <Button x:Name="Delete_Course" 
-                    FontSize="15"
+            <Button FontSize="15"
                     Padding="15" Margin="5"
                     Background="#FFD9534F"
                     Foreground="White"
@@ -70,6 +67,7 @@
                   VerticalAlignment="Stretch"
                   HorizontalAlignment="Stretch"
                   BorderBrush="#FFDDDDDD"
+                  x:Name="courseGrid"
                   />
 
     </Grid>

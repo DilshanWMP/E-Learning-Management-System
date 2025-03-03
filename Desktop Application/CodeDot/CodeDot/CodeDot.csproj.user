@@ -10,9 +10,15 @@
     <Compile Update="CourseManagementWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="CourseWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="CourseManagementWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CourseWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
