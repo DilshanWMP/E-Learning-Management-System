@@ -1,17 +1,40 @@
-import React from 'react'
+import React, { useState } from 'react';
 import '../App.css'
 import HeaderContent from '../Components/HeaderContent/HeaderContent'
 import BodyContent from '../Components/BodyContent/BodyContent'
 import Card from '../Components/Card/Card'
 import Placeholder from '../assets/Courses/python1.jpg'  
+import LoginRegister from '../Components/LoginRegister/LoginRegister';
 
 
 function AllCoursesPage() {
+
+  const [showLoginModal, setShowLoginModal] = useState(false);
+  
+    const toggleLoginModal = () => {
+      setShowLoginModal(!showLoginModal);
+    };
+
   return (
     <>
       <div id="wrapper">
-        <HeaderContent/>
+        <HeaderContent toggleLoginModal={toggleLoginModal} /> 
         <BodyContent>
+
+          {showLoginModal && (
+            <div className="modal-overlay">
+              <div className="modal-content">
+                <LoginRegister />
+                <button
+                  className="close-modal"
+                  onClick={toggleLoginModal}
+                >
+                  ✕
+                </button>
+              </div>
+            </div>
+          )}
+
           <div className="content">
             <h3>All Courses</h3>
           </div>

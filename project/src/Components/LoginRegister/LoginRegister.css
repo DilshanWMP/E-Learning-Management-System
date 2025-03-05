@@ -2,8 +2,11 @@
     position: relative;
     width: 420px;
     height: 450px;
-    background: seagreen;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, .1);
+    backdrop-filter: blur(30px);
     border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     color: #fff;
     display: flex;
     align-items: center;
@@ -126,3 +129,37 @@ form .register-link{
 .register-link p a:hover{
     text-decoration: underline;
 }
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+  }
+  
+  .modal-content {
+    position: relative;
+    width: 420px;
+    max-width: 90%; 
+  }
+  
+  .close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #a7a7a7fa;
+  }
+  
+  .close-modal:hover {
+    color: white;
+  }

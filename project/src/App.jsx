@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import './App.css'
 import HeaderContent from './Components/HeaderContent/HeaderContent'
 import BodyContent from './Components/BodyContent/BodyContent'
@@ -12,12 +13,31 @@ import image1 from '../src/assets/Features/image1.jpg'
 import image2 from '../src/assets/Features/image2.jpg'
 
 function App() {
+  const [showLoginModal, setShowLoginModal] = useState(false);
+
+  const toggleLoginModal = () => {
+    setShowLoginModal(!showLoginModal);
+  };
 
   return (
     <>   
-      <HeaderContent/>
+      <HeaderContent toggleLoginModal={toggleLoginModal} />
       <BodyContent>
-      <LoginRegister/>
+
+       {showLoginModal && (
+          <div className="modal-overlay">
+            <div className="modal-content">
+              <LoginRegister />
+              <button
+                className="close-modal"
+                onClick={toggleLoginModal}
+              >
+                ✕
+              </button>
+            </div>
+          </div>
+        )}
+
         <section className='bgimage'>
           <div className='content' style={{alignItems:'flex-end'}}>
             <h1 style={{color:'white'}}>Bring your <br/>goals<span style={{ color: '#DF8AA3' }}> into <br/>focus</span></h1>

@@ -3,7 +3,7 @@ import MenuLink from '../MenuLink/MenuLink'
 import './HeaderContent.css'
 import Logoimage from '../../assets/CodeDot-Logo.png'
 
-function HeaderContent() {
+function HeaderContent({toggleLoginModal}) {
   return (
     <nav>
       <div className='navcontent'>   
@@ -12,8 +12,7 @@ function HeaderContent() {
               <MenuLink linkname="Home" url="/"/>
               <MenuLink linkname="All Courses" url="/allcourses"/>
               <MenuLink linkname="My Courses" url="/mycourses"/>
-              {/* <MenuLink linkname="Login" url="#login"/> */}
-              <button className='btnLogin-popup' href="#login">Login</button>
+              <button className='btnLogin-popup' onClick={toggleLoginModal}>Login</button>
           </div>
       </div>
     </nav>
