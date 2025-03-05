@@ -78,6 +78,7 @@ function App() {
             description='Give your employees unlimited access to courses and certificate programs in topics like AI, sustainability, and leadership.'
             textColor='white'
             button='Discover enterprise solutions'
+            
           />
         </div>
 
@@ -97,6 +98,7 @@ function App() {
             description='Sign up now.'
             textColor='white'
             button='Get started'
+            onClick={toggleLoginModal}
           />
         </div>
 
