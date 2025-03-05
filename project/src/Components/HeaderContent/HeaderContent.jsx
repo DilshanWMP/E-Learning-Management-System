@@ -3,17 +3,29 @@ import MenuLink from '../MenuLink/MenuLink'
 import './HeaderContent.css'
 import Logoimage from '../../assets/CodeDot-Logo.png'
 
-function HeaderContent({toggleLoginModal}) {
+function HeaderContent({ toggleLoginModal, currentUser, onLogout }) {
   return (
     <nav>
       <div className='navcontent'>   
-          <img src={Logoimage} alt="Logo" className='logo'/>
-          <div>
-              <MenuLink linkname="Home" url="/"/>
-              <MenuLink linkname="All Courses" url="/allcourses"/>
-              <MenuLink linkname="My Courses" url="/mycourses"/>
-              <button className='btnLogin-popup' onClick={toggleLoginModal}>Login</button>
-          </div>
+        <img src={Logoimage} alt="Logo" className='logo'/>
+        <div>
+          <MenuLink linkname="Home" url="/"/>
+          <MenuLink linkname="All Courses" url="/allcourses"/>
+          <MenuLink linkname="My Courses" url="/mycourses"/>
+          
+          {currentUser ? (
+            <div className="user-info">
+              <span>Welcome, {currentUser.username}</span>
+              <button className='btnLogin-popup' onClick={onLogout}>
+                Logout
+              </button>
+            </div>
+          ) : (
+            <button className='btnLogin-popup' onClick={toggleLoginModal}>
+              Login
+            </button>
+          )}
+        </div>
       </div>
     </nav>
   )
