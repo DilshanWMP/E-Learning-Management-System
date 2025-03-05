@@ -7,6 +7,12 @@
     color: #fff;
     display: flex;
     align-items: center;
+    overflow: hidden;
+    transition: height .2s ease;
+}
+
+.wrapper.active{
+    height: 520px;
 }
 
 .wrapper .form-box{
@@ -108,7 +114,7 @@ form button{
 
 form .register-link{
     font-size: 14.5px;
-    margin: 20px 0 15px;
+    margin: 20px 0 15px; 
 }
 
 .register-link p a{

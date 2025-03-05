@@ -5,13 +5,13 @@ import { FaUser, FaLock, FaEnvelope } from "react-icons/fa";
 
 function LoginRegister() {
 
-    const [action, setAction]= useState('');
-    
-    const registerLink = () =>{
-        setAction('Active');
+    const [action, setAction] = useState('');
+
+    const registerLink = () => {
+        setAction(' active');
     };
 
-    const loginLink = () =>{
+    const loginLink = () => {
         setAction('');
     };
 

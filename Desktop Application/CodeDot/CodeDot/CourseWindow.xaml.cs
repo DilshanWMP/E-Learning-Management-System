@@ -40,8 +40,7 @@ namespace CodeDot
 
             catch (Exception ex)
             {
-                //<!--this-->
-                MessageBox.Show(ex.Message, "Error in input", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show(ex.Message, "Error in input");
                 DialogResult = false;
                 Close();
             }

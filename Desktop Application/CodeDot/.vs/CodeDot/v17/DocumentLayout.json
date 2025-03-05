@@ -27,16 +27,16 @@
       "RelativeMoniker": "D:0:0:{1DEB6AA3-560B-4EE9-A0C7-308114E6EB9A}|CodeDot\\CodeDot.csproj|solutionrelative:codedot\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Praveen\\GitHub\\E-Learning-Management-System\\Desktop Application\\CodeDot\\CodeDot\\Migrations\\20250303170301_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CodeDot\\Migrations\\20250303170301_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1DEB6AA3-560B-4EE9-A0C7-308114E6EB9A}|CodeDot\\CodeDot.csproj|c:\\praveen\\github\\e-learning-management-system\\desktop application\\codedot\\codedot\\coursedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1DEB6AA3-560B-4EE9-A0C7-308114E6EB9A}|CodeDot\\CodeDot.csproj|solutionrelative:codedot\\coursedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1DEB6AA3-560B-4EE9-A0C7-308114E6EB9A}|CodeDot\\CodeDot.csproj|c:\\praveen\\github\\e-learning-management-system\\desktop application\\codedot\\codedot\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1DEB6AA3-560B-4EE9-A0C7-308114E6EB9A}|CodeDot\\CodeDot.csproj|solutionrelative:codedot\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DEB6AA3-560B-4EE9-A0C7-308114E6EB9A}|CodeDot\\CodeDot.csproj|c:\\praveen\\github\\e-learning-management-system\\desktop application\\codedot\\codedot\\migrations\\20250303170301_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DEB6AA3-560B-4EE9-A0C7-308114E6EB9A}|CodeDot\\CodeDot.csproj|solutionrelative:codedot\\migrations\\20250303170301_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "20250303170301_InitialCreate.cs",
               "DocumentMoniker": "C:\\Praveen\\GitHub\\E-Learning-Management-System\\Desktop Application\\CodeDot\\CodeDot\\Migrations\\20250303170301_InitialCreate.cs",
               "RelativeDocumentMoniker": "CodeDot\\Migrations\\20250303170301_InitialCreate.cs",
@@ -62,12 +62,11 @@
               "RelativeToolTip": "CodeDot\\Migrations\\20250303170301_InitialCreate.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T17:03:01.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T17:03:01.742Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "CourseDbContext.cs",
               "DocumentMoniker": "C:\\Praveen\\GitHub\\E-Learning-Management-System\\Desktop Application\\CodeDot\\CodeDot\\CourseDbContext.cs",
               "RelativeDocumentMoniker": "CodeDot\\CourseDbContext.cs",
@@ -75,8 +74,7 @@
               "RelativeToolTip": "CodeDot\\CourseDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T16:23:14.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T16:23:14.143Z"
             },
             {
               "$type": "Document",
@@ -88,8 +86,7 @@
               "RelativeToolTip": "CodeDot\\Course.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T16:22:08.703Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T16:22:08.703Z"
             },
             {
               "$type": "Document",
@@ -101,8 +98,7 @@
               "RelativeToolTip": "CodeDot\\CourseManagementWindow.xaml.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAAwEgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T16:10:52.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T16:10:52.057Z"
             },
             {
               "$type": "Document",
@@ -112,7 +108,7 @@
               "RelativeDocumentMoniker": "CodeDot\\CourseWindow.xaml.cs",
               "ToolTip": "C:\\Praveen\\GitHub\\E-Learning-Management-System\\Desktop Application\\CodeDot\\CodeDot\\CourseWindow.xaml.cs",
               "RelativeToolTip": "CodeDot\\CourseWindow.xaml.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAkwDgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwCkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T19:32:19.349Z",
               "EditorCaption": ""
@@ -126,8 +122,7 @@
               "ToolTip": "C:\\Praveen\\GitHub\\E-Learning-Management-System\\Desktop Application\\CodeDot\\CodeDot\\CourseWindow.xaml",
               "RelativeToolTip": "CodeDot\\CourseWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-03T19:08:13.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T19:08:13.539Z"
             },
             {
               "$type": "Document",
@@ -138,8 +133,7 @@
               "ToolTip": "C:\\Praveen\\GitHub\\E-Learning-Management-System\\Desktop Application\\CodeDot\\CodeDot\\CourseManagementWindow.xaml",
               "RelativeToolTip": "CodeDot\\CourseManagementWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-02T12:18:03.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T12:18:03.581Z"
             },
             {
               "$type": "Document",
@@ -150,12 +144,11 @@
               "ToolTip": "C:\\Praveen\\GitHub\\E-Learning-Management-System\\Desktop Application\\CodeDot\\CodeDot\\MainWindow.xaml",
               "RelativeToolTip": "CodeDot\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-02T10:28:24.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T10:28:24.863Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Praveen\\GitHub\\E-Learning-Management-System\\Desktop Application\\CodeDot\\CodeDot\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "CodeDot\\MainWindow.xaml.cs",
@@ -163,8 +156,7 @@
               "RelativeToolTip": "CodeDot\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T10:28:23.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T10:28:23.838Z"
             }
           ]
         }
