@@ -6,29 +6,29 @@ import Logoimage from '../../assets/CodeDot-Logo.png'
 function HeaderContent({ toggleLoginModal, currentUser, onLogout }) {
   return (
     <nav>
-      <div className='navcontent'>   
-        <img src={Logoimage} alt="Logo" className='logo'/>
-        <div>
-          <MenuLink linkname="Home" url="/"/>
-          <MenuLink linkname="All Courses" url="/allcourses"/>
-          <MenuLink linkname="My Courses" url="/mycourses"/>
+      <div className="navcontent">
+        <img src={Logoimage} alt="Logo" className="logo" />
+        <div className="nav-links">
+          <MenuLink linkname="Home" url="/" />
+          <MenuLink linkname="All Courses" url="/allcourses" />
+          <MenuLink linkname="My Courses" url="/mycourses" />
           
           {currentUser ? (
-            <div className="user-info">
-              <span>Welcome, {currentUser.username}</span>
-              <button className='btnLogin-popup' onClick={onLogout}>
+            <>
+              <span className="welcome-message">Welcome, {currentUser.username}</span>
+              <button className="btnLogin-popup" onClick={onLogout}>
                 Logout
               </button>
-            </div>
+            </>
           ) : (
-            <button className='btnLogin-popup' onClick={toggleLoginModal}>
+            <button className="btnLogin-popup" onClick={toggleLoginModal}>
               Login
             </button>
           )}
         </div>
       </div>
     </nav>
-  )
+  );
 }
 
-export default HeaderContent
+export default HeaderContent;
