@@ -1,9 +1,12 @@
-import React from 'react'
-import MenuLink from '../MenuLink/MenuLink'
-import './HeaderContent.css'
-import Logoimage from '../../assets/CodeDot-Logo.png'
+import React from 'react';
+import { useUser } from '../../Contexts/UserContext'; 
+import './HeaderContent.css';
+import MenuLink from '../MenuLink/MenuLink';
+import Logoimage from '../../assets/CodeDot-Logo.png';
 
-function HeaderContent({ toggleLoginModal, currentUser, onLogout }) {
+function HeaderContent({ toggleLoginModal }) {
+  const { currentUser, handleLogout } = useUser(); 
+
   return (
     <nav>
       <div className="navcontent">
@@ -12,11 +15,10 @@ function HeaderContent({ toggleLoginModal, currentUser, onLogout }) {
           <MenuLink linkname="Home" url="/" />
           <MenuLink linkname="All Courses" url="/allcourses" />
           <MenuLink linkname="My Courses" url="/mycourses" />
-          
           {currentUser ? (
             <>
               <span className="welcome-message">Welcome, {currentUser.username}</span>
-              <button className="btnLogin-popup" onClick={onLogout}>
+              <button className="btnLogin-popup" onClick={handleLogout}>
                 Logout
               </button>
             </>

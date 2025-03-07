@@ -38,7 +38,7 @@ function LoginRegister({ onLoginSuccess }) {
       if (response.ok) {
         setSuccess('Login successful!');
         setError('');
-        onLoginSuccess(data.user); 
+        onLoginSuccess(data.user);
       } else {
         setError(data.error || 'Login failed');
         setSuccess('');

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useUser } from './Contexts/UserContext';
 import './App.css'
 import HeaderContent from './Components/HeaderContent/HeaderContent'
 import BodyContent from './Components/BodyContent/BodyContent'
@@ -13,20 +14,14 @@ import image1 from '../src/assets/Features/image1.jpg'
 import image2 from '../src/assets/Features/image2.jpg'
 
 function App() {
+  const { currentUser, handleLogin, handleLogout } = useUser(); 
   const [showLoginModal, setShowLoginModal] = useState(false);
-  const [currentUser, setCurrentUser] = useState(null); 
 
-  const toggleLoginModal = () => {
-    setShowLoginModal(!showLoginModal);
-  };
+  const toggleLoginModal = () => setShowLoginModal(!showLoginModal);
 
   const handleLoginSuccess = (user) => {
-    setCurrentUser(user); 
-    setShowLoginModal(false); 
-  };
-
-  const handleLogout = () => {
-    setCurrentUser(null); 
+    handleLogin(user); 
+    setShowLoginModal(false);
   };
 
   return (
