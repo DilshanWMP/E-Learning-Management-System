@@ -110,6 +110,7 @@ function AllCoursesPage() {
               link='/'
               buttonText='Add Course'
             />
+            
           </div>
           
         </BodyContent>

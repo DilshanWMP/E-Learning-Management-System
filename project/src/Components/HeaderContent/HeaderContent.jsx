@@ -1,15 +1,32 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useUser } from '../../Contexts/UserContext'; 
+import { useLocation } from 'react-router-dom';
 import './HeaderContent.css';
 import MenuLink from '../MenuLink/MenuLink';
 import Logoimage from '../../assets/CodeDot-Logo.png';
 
 function HeaderContent({ toggleLoginModal }) {
   const { currentUser, handleLogout } = useUser(); 
+  const [sticky, setSticky] = useState(false);
+  const location = useLocation();
+
+  const isNotHomePage = location.pathname !== '/';
+
+  useEffect(() => {
+    const handleScroll = () => {
+      window.scrollY > 500 ? setSticky(true) : setSticky(false);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
     <nav>
-      <div className="navcontent">
+      <div className={`navcontent ${sticky || isNotHomePage ? 'dark-nav' : ''}`}>
         <img src={Logoimage} alt="Logo" className="logo" />
         <div className="nav-links">
           <MenuLink linkname="Home" url="/" />
